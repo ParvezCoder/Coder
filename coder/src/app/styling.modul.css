@@ -1,0 +1,32 @@
+.socialIconWrapper {
+    border-radius: 50%;
+    border: 3px solid black; /* Circle border color and size */
+    padding: 20px; /* Circle size (adjust as needed) */
+    display: inline-flex; /* Center the icon within the circle */
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px; /* Space between icons */
+    background-color: white;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+  }
+  
+  .socialIconWrapper:hover {
+    transform: scale(1.1); /* Grow effect */
+    box-shadow: 0 0 10px white; /* White shadow effect */
+  }
+  
+  .socialIconsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background-color: red;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

@@ -1,4 +1,17 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.typing-effect {
+  display: inline-block;
+  border-right: 2px solid black; /* Cursor effect */
+  white-space: nowrap;
+  
+  overflow: hidden;
+  animation: blinkCursor 0.7s step-end infinite;
+}
 
+@keyframes blinkCursor {
+  from { border-right-color: transparent; }
+  to { border-right-color: black; }
+}
