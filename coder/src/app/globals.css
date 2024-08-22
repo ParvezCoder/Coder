@@ -4,7 +4,8 @@
 @tailwind utilities;
 .typing-effect {
   display: inline-block;
-  border-right: 2px solid black; /* Cursor effect */
+  
+  border-right: 2px solid rgb(0, 0, 0); /* Cursor effect */
   white-space: nowrap;
   
   overflow: hidden;
